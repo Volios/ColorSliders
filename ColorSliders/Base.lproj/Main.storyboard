@@ -83,12 +83,21 @@
                                         <subviews>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rDR-U6-5YH">
                                                 <rect key="frame" x="-2" y="0.0" width="250" height="31"/>
+                                                <connections>
+                                                    <action selector="changeColorSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="QV4-Dl-ipt"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="eV0-Dn-3W4">
                                                 <rect key="frame" x="-2" y="39" width="250" height="31"/>
+                                                <connections>
+                                                    <action selector="changeColorSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="pDs-ed-aGF"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="T6k-h7-LSL">
                                                 <rect key="frame" x="-2" y="78" width="250" height="31"/>
+                                                <connections>
+                                                    <action selector="changeColorSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="YhU-Ju-Bwx"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                     </stackView>
